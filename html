@@ -499,3 +499,35 @@
     transform: translateX(200px); opacity:
     0; transition: all 0.5s;
   }
+  .toast.show { transform: translateX(0); opacity: 1; }
+</style>
+</head>
+<body>
+  <!-- FLOATING SHAPES -->
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+  <div class="shape shape-4"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">
+      <div class="emblem">RZP</div>
+      <div class="logo-text">
+        <h1>Raigad ZP School</h1>
+        <p>Kudave, Raigad District</p>
+      </div>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#attendance">Attendance</a></li>
+      <li><a href="#donation">Donate</a></li>
+    </ul>
+    <div class="nav-btns">
+      <button class="btn-login" onclick="openModal('login')">Login</button>
+      <button class="btn-register" onclick="openModal('register')">Register</button>
+    </div>
+  </nav>
+</body>
+</html>
